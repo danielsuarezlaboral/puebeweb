@@ -1,0 +1,138 @@
+html {
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #ccc;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background: #333;
+}
+header div,
+nav {
+  /*display: inline;*/
+  /*width: 50%;*/
+  padding: 0 10px;
+}
+nav {
+  padding: 10px 0;
+}
+/*nav ul li{
+	list-style: none;
+	padding: 3px 0;
+}*/
+nav a {
+  padding: 3px 10px;
+  border-bottom: #fff solid 1px;
+  border-top: #fff solid 1px;
+  color: #999;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: inherit;
+  border-left: #fff solid 1px;
+  border-right: #fff solid 1px;
+  color: #fff;
+  background: #000;
+  box-shadow: 1px 1px 2px 1px #000;
+}
+.active {
+  text-decoration: inherit;
+  border-left: #fff solid 1px;
+  border-right: #fff solid 1px;
+  color: #fff;
+  background: #000;
+  box-shadow: 1px 1px 2px 1px #000;
+}
+span {
+  font-size: 1.5rem;
+  margin: auto;
+  width: 113px;
+  color: #ccc;
+  padding: 20px 0;
+}
+body {
+  background: url("../img/bg_img.jpg") center no-repeat;
+  background-size: cover;
+  width: 80%;
+  margin: auto;
+}
+.descrption__inicio {
+  background: rgba(200, 200, 200, 0.8);
+  padding: 30px;
+  text-align: center;
+}
+main {
+  /* display: inline-block; */
+}
+section {
+  margin: 50px 0;
+  padding: 10px 0;
+  background: rgba(50, 50, 50, 0.9);
+  color: #999;
+  /* flex: 1; */
+}
+section h2 {
+  margin: 0 0 0 20px;
+}
+.titulo {
+  font-family: "Source Code Pro", monospace;
+}
+.logo__html {
+  width: 70px;
+  padding: 10px;
+}
+footer {
+  background: #333;
+  padding: 10px 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #ccc;
+}
+footer .social {
+  width: 100px;
+  margin: auto;
+}
+aside {
+  margin: 50px 0 50px 10px;
+  padding: 0 10px;
+  width: 50%;
+  background: rgba(000, 000, 000, 0.7);
+  color: #fff;
+}
+aside ul {
+  padding: 0 3px;
+}
+aside ul li {
+  /* background: #999; */
+  border-bottom: solid 0.5px;
+  /* padding: 1px; */
+}
+aside ul li a {
+  padding: 1px;
+}
+aside ul li:hover {
+  background: #999;
+}
+aside ul li a:hover {
+  color: #000;
+}
+.container_html {
+  /* flex: 1; */
+}
+.container_aside {
+  /* flex: 2; */
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
